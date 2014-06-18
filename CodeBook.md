@@ -31,6 +31,6 @@ To run run_analysis.R
 3.  run_analysis.R produces the following output:
     tidyData.txt in table format - 180 observations x 81 variables - no missing data, headers provided.
     The measurement header names match the original raw data header names, except alphanumerics are removed.
-    For example, the original X-axis accelormeter average reading, tBodyAcc-mean()-X2, has been relabled tBodyAccmeanX.  
+    For example, the original X-axis accelerometer average reading, tBodyAcc-mean()-X2, has been relabled tBodyAccmeanX.  
 
 This information is current as of 6/12/2014.
