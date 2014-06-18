@@ -1,4 +1,4 @@
-The raw data for this project is a set of acceleratometered and gyroscopic measurements from 
+The raw data for this project is a set of accelerotometered and gyroscopic measurements from 
 volunteers gathered from a smartphone they were wearing while performing an activity.  See 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 for a full desciption of the study.
@@ -29,6 +29,8 @@ To run run_analysis.R
     ./features.txt
     ./activity_labels.txt
 3.  run_analysis.R produces the following output:
-    tidyData.txt in table format - 180 observation x 81 variables - no missing data, headers provided 
-    
+    tidyData.txt in table format - 180 observation x 81 variables - no missing data, headers provided.
+    The measurement header names match the original raw data header names, except alphanumerics are removed.
+    For example, the original X-axis accelormeter average reading, tBodyAcc-mean()-X2, has been relabled tBodyAccmeanX.  
+
 This information is current as of 6/12/2014.
