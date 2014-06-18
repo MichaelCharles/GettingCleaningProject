@@ -1,7 +1,7 @@
 Course Project for Getting and Cleaning Data
 
 See https://class.coursera.org/getdata-004/human_grading/view/courses/972137/assessments/3/submissions 
-for a full description of this project.   The progject is to transform raw data from 
+for a full description of this project.   The project is to transform raw data from 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to 
 a tidy data set.
 
