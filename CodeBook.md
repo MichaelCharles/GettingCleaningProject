@@ -21,14 +21,14 @@ To run run_analysis.R
 1.  Version Rx64 3.0.2 can be used.
 2.  Download the raw data zip file to a local directory for use by R and extract the files.
     run_analysis.R requires the following files 
-    ./test/subject_test.txt 
-    ./test/X_test.txt       
-    ./test/y_test.txt      
-    ./train/subject_train.txt
-    ./train/X_train.txt       
-    ./train/y_train.txt
-    ./features.txt
-    ./activity_labels.txt
+    ./test/subject_test.txt                      
+    ./test/X_test.txt                                    
+    ./test/y_test.txt           
+    ./train/subject_train.txt                   
+    ./train/X_train.txt         
+    ./train/y_train.txt             
+    ./features.txt          
+    ./activity_labels.txt                  
 3.  run_analysis.R produces the following output:
     tidyData.txt in table format - 180 observations x 81 variables - no missing data, headers provided.
     The measurement header names match the original raw data header names, except non-alphanumerics are removed.
