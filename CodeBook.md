@@ -19,7 +19,7 @@ run_analysis.R is a R script which transforms the data in the following manner:
 To run run_analysis.R
 
 1.  Version Rx64 3.0.2 can be used.
-2.  Download the raw data zip file to a local directory for use by R and extract the files.
+2.  Download the raw data zip file to a working directory UCIHAR for use by R and extract the files.
     run_analysis.R requires the following files 
     ./test/subject_test.txt                      
     ./test/X_test.txt                                    
