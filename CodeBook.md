@@ -4,9 +4,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 for a full desciption of the study.
 
 The actual data is at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.  
-This zip file contains 28 files with actual measurement data, including a READE.txt file 
-describing the data. The original date is 11/2012.
-
+This zip file contains 28 files with actual measurement data, including a README.txt file 
+describing the data. The original date is 11/2012.   
+   
 run_analysis.R is a R script which transforms the data in the following manner:
 
 1. Merges the training and the test sets to create one data set.
