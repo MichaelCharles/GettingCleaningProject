@@ -23,6 +23,5 @@ data$Activity <- labels$Label[data$Activity]
 
 # Creates a second, independent tidy data set with the average of each variable 
 # for each activity and each subject
-# tidy<-aggregate(data[,-(1:2)],list(Subject=data$Subject,Activity=data$Activity),mean)
 tidy<-aggregate(.~Subject+Activity,data,mean)
 write.table(tidy,file="tidyData.txt")
